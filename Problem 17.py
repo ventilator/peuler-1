@@ -73,17 +73,7 @@ def construct_number(n):
         if n == 0:
             return ''
         return numbers[str(n)]
-
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 17 21:02:08 2014
-@author: ventilator 
-best practice:
-    hashable, immutable datatypes are your friend. no need for deepcopy etc, faster and safer
-    use Counter or NamedTuple for clean code
-"""
-
+    
 
 def solve_problem():
     print(sum_of_num_of_letters(1000))
