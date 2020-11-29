@@ -1,3 +1,5 @@
+# https://projecteuler.net/problem=17
+
 # as far as I can tell, you need to write out all of the special cases of how numbers are constructed, then you can
 # write a sort of regular expression to generate them recursively
 
